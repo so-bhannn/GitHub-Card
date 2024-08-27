@@ -8,15 +8,25 @@
 </head>
 <body>
     <form>
-        <label for="textbox">GitHub username:</label>
+        <label for="textbox"><p class="GitHub">GitHub username:</p></label>
         <input type="text" id="textbox" placeholder="Enter Here">
         <button type="submit">Submit</button>
+        <div class="error"></div>
     </form>
     <div class="container">
-        <div class="pic"></div>
-        <div class="name"></div>
-        <div class="details"></div>
+        <div style="display:none;"class="github-card">
+            <img class="profile-pic" src="profile-pic-url" alt="Profile Picture">
+            <div class="info">
+                <h2 class="username">Username</h2>
+                <p class="name">Name</p>
+                <p class="details">Followers: <span class="followers">0</span></p>
+                <p class="details">Following: <span class="following">0</span></p>
+                <p class="details">Location: <span class="location">Unknown</span></p>
+                <p class="details">Repositories: <span class="repos">0</span></p>
+            </div>
+        </div><br>
+        <button style="display:none" class="refresh">Add another</button>
     </div>
+    <script src="script.js"></script>
 </body>
-<script src="script.js"></script>
 </html>
