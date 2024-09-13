@@ -1,1 +1,2 @@
-Get your GitHub-Card by entering your GitHub username.
+# GitHub-Cards
+### This simple yet effective web tool allows you to quickly create personalized GitHub profile cards. Simply enter your GitHub username, and the website will instantly generate a visually appealing card showcasing your essential profile information, including your avatar, bio, repositories, and followers. The card is designed using clean HTML, CSS, and JavaScript for a modern and user-friendly experience.
